@@ -10,7 +10,9 @@ Plugin 'rking/ag.vim'
 Plugin 'int3/vim-extradite'
 
 " language support
+Plugin 'othree/html5.vim'
 Plugin 'kchmck/vim-coffee-script'
+Plugin 'mustache/vim-mustache-handlebars'
 Plugin 'vim-ruby/vim-ruby'
 
 " tpope <3
