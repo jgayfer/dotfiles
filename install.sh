@@ -1,2 +1,2 @@
 #!/bin/sh
-stow ag bundler git guard tmux vim -t ~
+stow bundler git vim -t ~
