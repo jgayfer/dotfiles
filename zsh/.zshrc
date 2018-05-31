@@ -100,4 +100,5 @@ source /usr/local/share/chruby/auto.sh
 export DB_USER=jgayfer
 
 # Fzy finder alias
-alias f='vim $(find -type f | fzy)'
+alias v='vim $(find -type f | fzy)'
+alias f='ls -l $(find -type f | fzy)'
