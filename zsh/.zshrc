@@ -100,5 +100,8 @@ source /usr/local/share/chruby/auto.sh
 export DB_USER=jgayfer
 
 # Fzy finder alias
-alias v='vim $(find -type f | fzy)'
+alias vf='vim $(find -type f | fzy)'
 alias f='ls -l $(find -type f | fzy)'
+
+# direnv
+eval "$(direnv hook zsh)"
