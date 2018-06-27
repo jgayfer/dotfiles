@@ -7,6 +7,7 @@ Plugin 'gmarik/Vundle.vim'
 " Use sensible defaults and the latest Ruby
 Plugin 'tpope/vim-sensible'
 Plugin 'vim-ruby/vim-ruby'
+Plugin 'w0rp/ale'
 
 call vundle#end()
 filetype plugin indent on
