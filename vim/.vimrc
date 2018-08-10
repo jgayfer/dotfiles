@@ -56,3 +56,6 @@ set t_Co=256
 
 " System clipboard
 set clipboard=unnamedplus
+
+" 80 char delimeter                                                                                                                                                              
+set colorcolumn=80
