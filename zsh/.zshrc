@@ -96,6 +96,10 @@ source $ZSH/oh-my-zsh.sh
 # Set default Ruby version
 source /usr/local/share/chruby/chruby.sh
 source /usr/local/share/chruby/auto.sh
+source /usr/local/opt/chruby/share/chruby/chruby.sh
+source /usr/local/opt/chruby/share/chruby/auto.sh
+
+
 
 export DB_USER=jgayfer
 
