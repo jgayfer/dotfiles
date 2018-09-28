@@ -99,10 +99,6 @@ source /usr/local/share/chruby/auto.sh
 source /usr/local/opt/chruby/share/chruby/chruby.sh
 source /usr/local/opt/chruby/share/chruby/auto.sh
 
-
-
-export DB_USER=jgayfer
-
 # Fzy finder alias
 alias vf='vim $(find -type f | fzy)'
 alias f='ls -l $(find -type f | fzy)'
