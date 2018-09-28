@@ -48,3 +48,5 @@ tags
 ###############
 **/vendor/bundle
 .bundle/config
+.env
+.envrc
