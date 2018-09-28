@@ -100,8 +100,8 @@ source /usr/local/opt/chruby/share/chruby/chruby.sh
 source /usr/local/opt/chruby/share/chruby/auto.sh
 
 # Fzy finder alias
-alias vf='vim $(find -type f | fzy)'
-alias f='ls -l $(find -type f | fzy)'
+alias vf='vim $(find . -type f | fzy)'
+alias f='ls -l $(find . -type f | fzy)'
 
 # direnv
 eval "$(direnv hook zsh)"
