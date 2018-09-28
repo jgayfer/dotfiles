@@ -105,3 +105,6 @@ alias f='ls -l $(find . -type f | fzy)'
 
 # direnv
 eval "$(direnv hook zsh)"
+
+# Bundler
+alias be='bundle exec'
