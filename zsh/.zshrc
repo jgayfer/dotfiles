@@ -103,6 +103,9 @@ source /usr/local/opt/chruby/share/chruby/auto.sh
 alias vf='vim $(find . -type f | fzy)'
 alias f='ls -l $(find . -type f | fzy)'
 
+# Git related aliases
+alias gbpurge='git branch --merged | grep -v "\*" | grep -v "master" | xargs -n 1 git branch -d'
+
 # direnv
 eval "$(direnv hook zsh)"
 
