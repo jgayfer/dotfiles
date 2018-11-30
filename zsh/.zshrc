@@ -1,3 +1,9 @@
+# Save history
+HISTFILE=~/.zsh_history
+HISTSIZE=10000
+SAVEHIST=10000
+setopt appendhistory
+
 # Set default Ruby version
 source /usr/local/share/chruby/chruby.sh
 source /usr/local/share/chruby/auto.sh
