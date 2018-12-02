@@ -2,21 +2,26 @@ set nocompatible
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
+
+" Let Vundle manage itself
 Plugin 'gmarik/Vundle.vim'
 
-" Use sensible defaults and the latest Ruby
+" Plugins
 Plugin 'tpope/vim-sensible'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'w0rp/ale'
+Plugin 'itchyny/lightline.vim'
+Plugin 'gevann/vim-rspec-simple'
 
+" End plugins
 call vundle#end()
 filetype plugin indent on
-syntax on
 
+" General settings
+syntax on
 set noswapfile
 set nobackup
 set noerrorbells visualbell t_vb=
-set number
 set expandtab
 set softtabstop=2
 set shiftwidth=2
@@ -44,8 +49,6 @@ function! FzyCommand(choice_command, vim_command)
   endif
 endfunction
 nnoremap <leader>e :call FzyCommand("ag . --silent -l -g ''", ":e")<cr>
-nnoremap <leader>v :call FzyCommand("ag . --silent -l -g ''", ":vs")<cr>
-nnoremap <leader>s :call FzyCommand("ag . --silent -l -g ''", ":sp")<cr>
 
 " Enable mouse
 set mouse=a
@@ -55,7 +58,11 @@ set background=dark
 set t_Co=256
 
 " System clipboard
-set clipboard=unnamedplus
+set clipboard=unnamed
 
-" 80 char delimeter                                                                                                                                                              
+" 80 char delimeter
 set colorcolumn=80
+highlight ColorColumn ctermbg=0 guibg=lightgrey
+
+" Trim trailing whitespace
+autocmd BufWritePre * :%s/\s\+$//e
