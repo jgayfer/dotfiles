@@ -1,17 +1,11 @@
-# FreeRunning Technologies' Dotfiles
+# James Gayfer's dotfiles
 
-Here is a reasonable starting point for new people integrating into our
-workflow!
+...
 
-## What this gets you:
-
-- A bare minimum Vim config that has: an extension manager (Vundle.vim) and
-  some sensible defaults
-- A git config that provides some reasonable defaults, a global ignore, and the
-  commit hook we use for gerrit
-- A bundler config that installs gems into `vendor/bundle` (inside the project)
-  when you run `bundle install` so you have them easily accessible during
-  development
+## Other Requirements
+- Tmux
+- Zsh
+- Oh My Zsh
 
 ## Installation
 
