@@ -1,11 +1,4 @@
-# James Gayfer's dotfiles
-
-...
-
-## Other Requirements
-- Tmux
-- Zsh
-- Oh My Zsh
+# dotfiles
 
 ## Installation
 
@@ -15,10 +8,8 @@ sudo apt-get install stow # On Ubuntu
 brew install stow # On OSX
 
 # Basic Installation
-git clone https://github.com/freerunningtech/dotfiles
-cd dotfiles
 git submodule init
 git submodule update
-./install.sh
+./dots.sh
 vim +PluginInstall +qa
 ```
