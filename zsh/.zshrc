@@ -3,6 +3,7 @@ ZSH_THEME="robbyrussell"
 
 # Oh-My-Zsh Plugins
 plugins=(
+  dotenv
   git
 )
 
@@ -26,9 +27,6 @@ alias f='ls -l $(find . -type f | fzy)'
 
 # Git related aliases
 alias gbpurge='git branch --merged | grep -v "\*" | grep -v "master" | xargs -n 1 git branch -d'
-
-# direnv
-eval "$(direnv hook zsh)"
 
 # Bundler
 alias be='bundle exec'
