@@ -16,6 +16,7 @@ vim +PluginInstall +qa
 
 # Install apps
 The dotfiles here depend on:
+- fzy
 - chruby
 - ruby-install
 
