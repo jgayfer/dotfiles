@@ -1,3 +1,8 @@
+# Install Zsh & Oh-My-Zsh
+sudo apt install zsh -y
+chsh -s $(which zsh)
+sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+
 # Install Fzy
 sudo apt-get install fzy
 
