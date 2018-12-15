@@ -13,3 +13,13 @@ git submodule update
 ./dots.sh
 vim +PluginInstall +qa
 ```
+
+# Install apps
+The dotfiles here depend on:
+- chruby
+- ruby-install
+
+We can install them with:
+```
+./apps.sh
+```
