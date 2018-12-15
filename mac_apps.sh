@@ -1,11 +1,5 @@
 # Install Fzy
-wget -O fzy-1.0.tar.gz https://github.com/jhawthorn/fzy/archive/1.0.tar.gz
-tar -xzvf fzy-1.0.tar.gz
-cd fzy-1.0
-make
-sudo make install
-cd ..
-rm -r fzy*
+brew install fzy
 
 # Install chruby
 wget -O chruby-0.3.9.tar.gz https://github.com/postmodern/chruby/archive/v0.3.9.tar.gz
