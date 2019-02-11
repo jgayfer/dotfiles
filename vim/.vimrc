@@ -12,6 +12,8 @@ Plugin 'vim-ruby/vim-ruby'
 Plugin 'w0rp/ale'
 Plugin 'itchyny/lightline.vim'
 Plugin 'gevann/vim-rspec-simple'
+Plugin 'pangloss/vim-javascript'
+Plugin 'mxw/vim-jsx'
 
 " End plugins
 call vundle#end()
@@ -49,6 +51,8 @@ function! FzyCommand(choice_command, vim_command)
   endif
 endfunction
 nnoremap <leader>e :call FzyCommand("ag . --silent -l -g ''", ":e")<cr>
+nnoremap <leader>v :call FzyCommand("ag . --silent -l -g ''", ":vs")<cr>
+nnoremap <leader>s :call FzyCommand("ag . --silent -l -g ''", ":sp")<cr>
 
 " Enable mouse
 set mouse=a
