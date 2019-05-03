@@ -14,6 +14,7 @@ Plugin 'itchyny/lightline.vim'
 Plugin 'gevann/vim-rspec-simple'
 Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
+Plugin 'tpope/vim-fugitive'
 
 " End plugins
 call vundle#end()
