@@ -24,7 +24,10 @@ alias vf='vim $(find . -type f | fzy)'
 alias f='ls -l $(find . -type f | fzy)'
 
 # Git related aliases
-alias gbpurge='git branch --merged | grep -v "\*" | grep -v "master" | xargs -n 1 git branch -d'
+function gbpurge () {
+  git branch --merged | grep -v "\*" | grep -v "master" | xargs -n 1 git branch -d
+  git remote prune origin
+}
 
 # Bundler
 alias be='bundle exec'
