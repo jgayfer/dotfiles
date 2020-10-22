@@ -21,3 +21,10 @@ cd ruby-install-0.7.0/
 sudo make install
 cd ..
 rm -r ruby-install-0.7.0*
+
+# tmux
+brew install reattach-to-user-namespace
+brew install tmux
+
+# Install stow (for dotfiles)
+brew install stow
