@@ -15,6 +15,7 @@ Plugin 'gevann/vim-rspec-simple'
 Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
 Plugin 'tpope/vim-fugitive'
+Plugin 'morhetz/gruvbox'
 
 " End plugins
 call vundle#end()
@@ -28,6 +29,8 @@ set noerrorbells visualbell t_vb=
 set expandtab
 set softtabstop=2
 set shiftwidth=2
+set termguicolors
+colorscheme gruvbox
 
 " Disable arrow keys
 noremap! <Up> <NOP>
