@@ -33,6 +33,10 @@ set shiftwidth=2
 set termguicolors
 colorscheme gruvbox
 
+" Relative line numbers on
+set relativenumber
+set rnu
+
 " Disable arrow keys
 noremap! <Up> <NOP>
 noremap <Up> <NOP>
