@@ -15,6 +15,7 @@ Plugin 'gevann/vim-rspec-simple'
 Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
 Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-commentary'
 Plugin 'morhetz/gruvbox'
 
 " End plugins
