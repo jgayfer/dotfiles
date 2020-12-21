@@ -34,3 +34,7 @@ alias be='bundle exec'
 
 # Fix color highlighting on WSL
 LS_COLORS="ow=01;36;40" && export LS_COLORS
+
+# Override default ctags
+alias ctags="`brew --prefix`/bin/ctags"
+alias ctags >> ~/.bashrc
