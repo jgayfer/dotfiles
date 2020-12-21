@@ -17,6 +17,7 @@ Plugin 'mxw/vim-jsx'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-commentary'
 Plugin 'morhetz/gruvbox'
+Plugin 'tpope/vim-rails'
 
 " End plugins
 call vundle#end()
