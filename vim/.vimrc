@@ -76,7 +76,7 @@ set clipboard=unnamed
 
 " 80 char delimeter
 set colorcolumn=80
-highlight ColorColumn ctermbg=0 guibg=lightgrey
+highlight ColorColumn ctermbg=0 guibg=#3c3836
 
 " Trim trailing whitespace
 autocmd BufWritePre * :%s/\s\+$//e
