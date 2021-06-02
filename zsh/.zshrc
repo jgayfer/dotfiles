@@ -38,3 +38,8 @@ LS_COLORS="ow=01;36;40" && export LS_COLORS
 # Override default ctags
 alias ctags="`brew --prefix`/bin/ctags"
 alias ctags >> ~/.bashrc
+
+# NVM
+export NVM_DIR="$HOME/.nvm"
+[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"
+[ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"
