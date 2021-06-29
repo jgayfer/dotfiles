@@ -18,6 +18,9 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-commentary'
 Plugin 'morhetz/gruvbox'
 Plugin 'tpope/vim-rails'
+Plugin 'sheerun/vim-polyglot'
+Plugin 'davidhalter/jedi-vim'
+Plugin 'kkoomen/vim-doge'
 
 " End plugins
 call vundle#end()
@@ -84,3 +87,16 @@ highlight ColorColumn ctermbg=0 guibg=#3c3836
 
 " Trim trailing whitespace
 autocmd BufWritePre * :%s/\s\+$//e
+let g:lightline = {
+    \ 'active': {
+    \   'left': [ [ 'mode', 'paste' ], [ 'readonly', 'relativepath', 'modified' ] ],
+    \ }
+    \ }
+
+" ALE
+let g:ale_linters = {'python': ['flake8']}
+let g:ale_fixers = {'*': [], 'python': ['black']}
+let g:ale_fix_on_save = 1
+
+" Doge
+let g:doge_mapping = '<Leader>ds'
