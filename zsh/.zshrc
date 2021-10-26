@@ -15,6 +15,9 @@ HISTSIZE=10000
 SAVEHIST=10000
 setopt appendhistory
 
+# Brew
+export PATH=/opt/homebrew/bin:$PATH
+
 # Set default Ruby version
 source /usr/local/share/chruby/chruby.sh
 source /usr/local/share/chruby/auto.sh
