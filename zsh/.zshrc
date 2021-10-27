@@ -18,10 +18,6 @@ setopt appendhistory
 # Brew
 export PATH=/opt/homebrew/bin:$PATH
 
-# Set default Ruby version
-source /usr/local/share/chruby/chruby.sh
-source /usr/local/share/chruby/auto.sh
-
 # Fzy finder alias
 alias vf='vim $(find . -type f | fzy)'
 alias f='ls -l $(find . -type f | fzy)'
