@@ -11,8 +11,8 @@ source $ZSH/oh-my-zsh.sh
 
 # Save history
 HISTFILE=~/.zsh_history
-HISTSIZE=10000
-SAVEHIST=10000
+HISTSIZE=1000000000
+SAVEHIST=1000000000
 setopt appendhistory
 
 # Brew
