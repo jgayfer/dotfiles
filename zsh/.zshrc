@@ -6,6 +6,7 @@ plugins=(
   dotenv
   git
   vi-mode
+  asdf
 )
 
 source $ZSH/oh-my-zsh.sh
