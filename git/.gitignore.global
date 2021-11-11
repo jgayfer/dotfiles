@@ -50,3 +50,5 @@ tags
 .bundle/config
 .env
 .envrc
+apollo.pem
+.idea/*
