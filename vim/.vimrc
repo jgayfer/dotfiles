@@ -8,19 +8,12 @@ Plugin 'gmarik/Vundle.vim'
 
 " Plugins
 Plugin 'tpope/vim-sensible'
-Plugin 'vim-ruby/vim-ruby'
 Plugin 'w0rp/ale'
 Plugin 'itchyny/lightline.vim'
-Plugin 'gevann/vim-rspec-simple'
-Plugin 'pangloss/vim-javascript'
-Plugin 'mxw/vim-jsx'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-commentary'
 Plugin 'morhetz/gruvbox'
-Plugin 'tpope/vim-rails'
 Plugin 'sheerun/vim-polyglot'
-Plugin 'davidhalter/jedi-vim'
-Plugin 'kkoomen/vim-doge'
 
 " End plugins
 call vundle#end()
@@ -97,6 +90,3 @@ let g:lightline = {
 let g:ale_linters = {'python': ['flake8']}
 let g:ale_fixers = {'*': [], 'python': ['black']}
 let g:ale_fix_on_save = 1
-
-" Doge
-let g:doge_mapping = '<Leader>ds'
