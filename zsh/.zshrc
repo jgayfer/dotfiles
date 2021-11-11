@@ -5,6 +5,7 @@ ZSH_THEME="robbyrussell"
 plugins=(
   dotenv
   git
+  vi-mode
 )
 
 source $ZSH/oh-my-zsh.sh
