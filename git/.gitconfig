@@ -11,3 +11,8 @@
   default = simple
 [credential]
   helper = cache --timeout=3600
+[user]
+	name = James Gayfer
+	email = gayfer.james@gmail.com
+[includeIf "gitdir:~/Work/"]
+  path = ~/Work/.gitconfig
