@@ -14,6 +14,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-commentary'
 Plugin 'morhetz/gruvbox'
 Plugin 'sheerun/vim-polyglot'
+Plugin 'christoomey/vim-tmux-navigator'
 
 " End plugins
 call vundle#end()
