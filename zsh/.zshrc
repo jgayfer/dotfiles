@@ -6,7 +6,6 @@ plugins=(
   dotenv
   git
   vi-mode
-  asdf
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -36,3 +35,6 @@ alias be='bundle exec'
 # Override default ctags
 alias ctags="`brew --prefix`/bin/ctags"
 alias ctags >> ~/.bashrc
+
+# asdf
+. /opt/homebrew/opt/asdf/libexec/asdf.sh
