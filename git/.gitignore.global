@@ -52,3 +52,5 @@ tags
 .envrc
 apollo.pem
 .idea/*
+.gradle/*
+build
